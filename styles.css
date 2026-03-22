@@ -1,0 +1,57 @@
+/* Resetting the structure */
+*,*::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    flex-wrap: wrap;
+}
+
+/* Nav styling */
+nav {
+    background-color: #a773d8;
+    display:flex;
+    justify-content: space-between;
+    align-items: centre;
+    padding: 1rem 2rem;
+    backdrop-filter: blur(4px);
+}
+
+nav logo {
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 3.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #35254D;
+}
+
+#intro {
+    background-color: #e0e0e1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.intro-img {
+    margin-top: 10px;
+    padding: 25px;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
