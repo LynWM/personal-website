@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <title>My Personal Website</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -21,11 +22,11 @@
 
     <!-- Introduction Section -->
      <section id="intro">
-        <div class="into-img">
-            <img src="" alt="Lynette Murathimi">
+        <div class="intro-img">
+            <img src="assets/my-photo1.jpg" alt="Lynette Murathimi">
         </div>
         <div class="greetings">
-            <h3>Hi, I am Lynette Murathimi</h3>
+            <h3>Hello world! Lyn here! </h3>
             
         </div>
      </section>
@@ -33,11 +34,16 @@
     <!-- About me Section -->
      <section id="about">
         <div class="about-text">
-            <h2>About</h2>
             <h3>I am a junior developer</h3>
             <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                Exercitationem ratione, ab eligendi laborum iure vitae numquam ea ullam ex perspiciatis, 
+                Exercitationem ratione,
+            </p>
+
+            <br>
+
+            <p>
+                ab eligendi laborum iure vitae numquam ea ullam ex perspiciatis, 
                 voluptatibus sint repudiandae dolore aspernatur velit! Delectus cum maxime assumenda.
             </p>
             <!-- during testing and tweaking, check if we really need a button and image as well -->
@@ -60,7 +66,7 @@
         
         <h2>My Projects</h2>
         
-        <div id="projects">
+        <div class="projects-container">
 
             <div class="project-card">
                 <h4>Zen Planner</h4>
@@ -70,15 +76,6 @@
                     molestiae, nihil culpa, possimus incidunt nostrum eum! 
                 </p>
             </div> 
-            
-            <div class="project-card">
-                <h4>My Personal Website</h4>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Accusamus dolore officiis placeat ex magni ad officia quibusdam 
-                    molestiae, nihil culpa, possimus incidunt nostrum eum! 
-                </p>
-            </div>
 
             <div class="project-card">
                 <h4>Quick Aid</h4>
@@ -89,7 +86,7 @@
                 </p>
             </div>
 
-            <div id="project-card">
+            <div class="project-card">
                 <h4>Butterfly Study Cafe</h4>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -105,8 +102,26 @@
         </section>
 
         <section id="contacts">
-            <!-- Not sure if they'll be in divs, with icons -->
-             <!-- Telephone, Email, Github, LinkedIn -->
+
+            <h4>Contacts</h4>
+
+            <div class="social-links">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=lynmurathimi@gmail.com" target="_blank">
+                    <i class="fa-solid fa-at"></i>
+                </a>
+            
+                <a href="tel:+254112544427" target="_blank">
+                    <i class="fa-solid fa-phone"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/lynette-murathimi-54aa3129a/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a href="https://github.com/LynWM" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
 
         </section>
 
